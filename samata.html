@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        /* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: rgb(214, 166, 205);
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.home-section {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #0a0d0d;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.intro span {
+    color: #061011;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    color: rgba(19, 14, 18, 0.842);
+    padding: 0.75 rem 2rem;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: background-color 1s;
+}
+
+.btn:hover {
+    background-color: #0097a7;
+}
+
+.about-section, .projects-section, .contact-section {
+    padding: 4rem 0;
+    text-align: center;
+    color: black
+}
+
+.about-section h2, .projects-section h2, .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+
+    
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.project-card {
+    background-color: rgb(217, 113, 188);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgb(217, 113, 188);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-info {
+    padding: 1rem;
+    text-align: left;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 50%;
+    padding: 0.75rem;
+    border: 1px rgb(217, 113, 188);
+    border-radius: 5px;
+}
+
+.contact-section button {
+    background-color: #00bcd4;
+    color:rgb(15, 9, 13);
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.contact-section button:hover {
+    background-color: #0097a7;
+}
+
+footer {
+    background-color: white
+    ;
+    color: rgb(217, 113, 188);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+        </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MyPortfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <div class="intro">
+            <h1>Hello, I'm <span>Samata Chougule</span></h1>
+            <p>From Walchand Intitute of Technology</p>
+            <p>T.Y Information Technology (IT)</p>
+            <a href="file:///E:/Samta%20Certificates/MyResume.pdf" class="btn">My Resume</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About me</h2>
+        <p> 
+            <p>I'm Samata Chougule, a proficient student in the IT department at Walchand Institute of</p>
+            <p>Technology, skilled in C++, Java, and Python, Web Development. I have studied honors in AI/ML, reflecting a</p>
+            <p>strong academic foundation in these fields. Passionate about the web full stack domain, I am</p>
+            <p>eager to apply my programming skills to develop innovative web applications. Currently</p>
+            <p> seeking job or internship opportunities to contribute actively to web development projects</p>
+                <p>and gain practical industry experience.</p>
+                <p>
+                    <br></br>
+                </p>
+                <h2>Participated in debate competition</h2>
+                <p>Participated in Debate Competition organized by my college and</p> 
+                    <p>was undefeated for 5 rounds but fail to qualify for finals</p> 
+                        <p>as I lost in semis . The experience was exceptionally good as i</p>
+                            <p> tasted good and bad days together</p>
+                            <p>
+                                <br></br>
+                            </p>    
+                            <h2>Certificates</h2> 
+                            
+                            <p>C,C++,Java - Infosys springboard certification</p>
+                                <p> Participated in online hackathon of SYNAPSE.</p>
+                                    <p> Participated in online hackathon of SYNAPSE.</p>
+                                        <p> Honors in AI/ML</p>
+                                        <p>
+                                            <br></br>
+                                        </p>  
+                                        <h2>Volunteers</h2> 
+                                        
+                                        <p>Volunteered ATHARAVA as a backstage coordinator.</p>
+                                            <p>Volunteered Adventure Arena as a prop distributor </p> 
+
+        </p>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>My Skills</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="data:image/jpeg;base64,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" alt="Project 1">
+                <div class="project-info">
+                    <h3>C Language</h3>
+                    <p>c is very famous programming language and initially </p>
+                        <p> called as basic of software industries.</p>
+                            <p>C is a general purpose, middle level, procedural, </p>
+                                <p>structure oriented, computer programming language.</p>
+                                    <p> The development of C Programming Language started in the year</p>
+                                        <p> 1972 by Dennis Ritchie, Brain Kernighan and team</p>
+                                            <p> at the Bell Labs, USA</p>
+                    
+                        <p>  I have completed my course of c programming </p>
+                        <p>  language
+                        from "INTELLISE IT coding institute "</p>
+                        <p> in solapur.
+                        I have strong commands on c language..</p>
+                        <h3>Download My C Lang Certificate</h3>
+                        <a href="file:///E:/Samta%20Certificates/C%20Certificate.pdf" download="C Certificates.pdf">Download Certificate</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="data:image/png;base64,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" alt="Project 2">
+                <div class="project-info">
+                    <h3>C++ language</h3>
+                    <p>C++ is widely used Object Oriented Programming Language.</p>
+                    <p>OOP is base of Java and Python programming languages.</p>
+                    <p>OOP is base of Java and Python programming languages.</p>
+                    <p> C++ is a statically typed, compiler-based, general-purpose,</p>
+                    <p>  case-sensitive, free-form, object oriented programming</p>
+                    <p>  language.</p>
+                    <p> C++ was developed by Bjarne Stroustrup starting 1979 at AT&amp;T </p>
+                    <p> (American Telephone &amp; Telegraph) Bell Labs in</p>
+                    <p> Murray Hill, New Jersey</p><p>
+                 <p> I have completed my course of C++ (OOP) programming language </p>
+                            <p>from "INTELLISE IT coding institute "in solapur.</p>
+                                <p> I have strong commands on C++ language.</p>
+                    </p>.</p>
+                    <h3>Download My C++ Lang Certificate</h3>
+                        <a href="E:/Samta%20Certificates/CPP%20Certificate.pdf" download="CPP Certificates.pdf">Download Certificate</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="data:image/png;base64,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" alt="Project 2">
+                <div class="project-info"></div>
+                    <h3>Python Language</h3>
+                   <P> Python is world-Wide used programming Language.</p>
+                    <P> Python is a general purpose interpreted, interactive,</p>
+                        <P> object-oriented, and high-level scripting/programming language.</p>
+                            <P>The development of the Python language started during</p> 
+                                <P>1985-1990 by Guido van Rossum. Like Perl, Python source</p>
+                                    <P>code is also available under the GNU General Public License (GPL).</p>
+                       
+                            <P> Python supports functional and structured programming methods as well as OOP.</p>
+                                <P>● It can be used as a scripting language or can be</p>
+                                    <P>compiled to byte-code for building large applications.</p>
+                                        <P>● It provides very high-level dynamic data types and</p>
+                                            <P>supports dynamic type checking.</p>
+                                            <P>● It supports automatic garbage collection.</p>
+                                                <P>● It can be easily integrated with C, C++, COM, ActiveX,</p>
+                                                    <P></P> COBRA, C#.NET and Java languages.</p>
+                                                    <br><br><br>
+                </div>
+            </div>
+            <div class="project-card">
+                
+                <div class="project-info">
+                    <h1>My Other Certificates</h1>
+                    <h3>Download My Java Lang Certificate</h3>
+                    <a href="file:///E:/Samta%20Certificates/Java%20Certificates.pdf" download="Java Certificates.pdf">Download Certificate</a>
+                    <br><br>
+                    <h3>Download My Artificial Intelligence Certificate</h3>
+                    <a href="file:///E:/Samta%20Certificates/AI%20Certificates.pdf" download="AI Certificates.pdf">Download Certificate</a>
+                    <br><br>
+                    <h3>Download My Power BI Certificate</h3>
+                    <a href="file:///E:/Samta%20Certificates/powerbi%20Samta.pdf" download="Powerbi Certificates.pdf">Download Certificate</a>
+                    <br><br>
+                    <h3>Download My SSO Compaign Certificate</h3>
+                    <a href="file:///E:/Samta%20Certificates/SSO%20Certificates.pdf" download="SSO Certificates.pdf">Download Certificate</a>
+
+                    
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        
+    
+    </div>
+    <div class="contact-details">
+        <br></br>
+        <h1 class="greet-heading">My Contact Details</h1>
+        <div class="details">
+            <h5 class="contact-heading">EMAIL</h5>
+            <p class="contact-text">samtachougule@gmail.com</p>
+        </div>
+        <div class="details">
+            <h5 class="contact-heading">PHONE</h5>
+            <p class="contact-text">+91 7841856095</p>
+        </div>
+       
+        <div class="details">
+            <h5 class="contact-heading">ADDRESS</h5>
+            <p class="contact-text">Girls Hostel , H-1 Room no. 3 , WIT Solapur.</p>
+            
+        </div>
+    </div>
+</div>
+
+    </section>
+
+    <footer>
+        <p>&copy; By Samata Pradip Chougule. </p>
+    </footer>
+</body>
+</html>
